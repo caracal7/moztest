@@ -1,0 +1,9 @@
+[package]
+name = "mozjs-test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+
+mozjs = { path = "vendors/rust-mozjs" }
+libc = "0.2"
